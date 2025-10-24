@@ -7,8 +7,11 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Plane className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold">POPS</span>
+              <img
+                src="/images/logo_pops.png"
+                alt="POPS logo"
+                className="w-[200px] my-[-30px] ml-[-20px]"
+              />
             </div>
             <p className="text-muted-foreground text-sm">
               La plataforma líder para gestión de viáticos y acreditaciones en la industria aérea.
