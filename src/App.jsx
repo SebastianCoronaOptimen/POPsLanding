@@ -14,7 +14,9 @@ export default function App() {
       <HeroSection />
       <SocialProof />
       <ProblemSolution />
+      <div id="FeaturesSection">
       <FeaturesSection />
+      </div>
       <BenefitsSection />
       <CTASection />
       <Footer />

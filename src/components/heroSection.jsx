@@ -2,13 +2,18 @@ import { Button } from "./ui/button"
 import { Badge } from "./ui/badge"
 import { ArrowRight } from "lucide-react"
 
+
 export function HeroSection() {
+
+  const goFeaturesSection = () => {
+    const section = document.getElementById("FeaturesSection").scrollIntoView({behavior: "smooth"});
+  }
+
   return (
     <section className="px-6 py-20 text-center">
       <div className="max-w-4xl mx-auto">
         <Badge variant="secondary" className="mb-6 text-sm">
           Nuevo: Integración con sistemas de tracking ✈️
-          <span className="text-custom-green ml-2">Conoce más</span>
         </Badge>
 
         <h1 className="text-5xl md:text-7xl font-bold text-balance mb-8 leading-tight">
@@ -26,7 +31,7 @@ export function HeroSection() {
             Solicitar demo gratuita
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
-          <Button variant="outline" size="lg" className="px-8 py-3 bg-transparent hover:bg-custom-green">
+          <Button onClick={goFeaturesSection} variant="outline" size="lg" className="px-8 py-3 bg-transparent hover:bg-custom-green">
             Ver funcionalidades
           </Button>
         </div>
