@@ -23,7 +23,7 @@ export function Footer() {
             <img 
             src="/images/logo_aws.png" 
             alt="AWS logo"
-            className="w-[250px]" />
+            className="w-[200px] h-[80px]"/>
           </div>
         </div>
 
