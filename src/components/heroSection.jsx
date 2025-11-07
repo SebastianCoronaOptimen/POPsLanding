@@ -35,10 +35,6 @@ export function HeroSection() {
             Ver funcionalidades
           </Button>
         </div>
-
-        <p className="text-sm text-muted-foreground mt-8">
-          Más de 50 aerolíneas confían en POPS para gestionar sus viáticos de tripulación
-        </p>
       </div>
     </section>
   )

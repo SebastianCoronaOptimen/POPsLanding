@@ -4,16 +4,16 @@ export function Footer() {
   return (
     <footer className="px-6 py-12 bg-muted/30 border-t border-border">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-80">
+        <div className="grid md:grid-cols-2 gap-20">
           <div>
             <div className="flex justify-center gap-2 mb-4 ">
               <img
                 src="/images/logo_pops.png"
                 alt="POPS logo"
-                className="w-[200px] my-[-30px] ml-[-20px]"
+                className="w-[200px] my-[-30px]"
               />
             </div>
-            <p className="text-muted-foreground text-center">
+            <p className="text-muted-foreground text-center gap-20">
               La plataforma líder para gestión de viáticos y acreditaciones en
               la industria aérea.
             </p>
