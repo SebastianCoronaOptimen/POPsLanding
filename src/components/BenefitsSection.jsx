@@ -43,9 +43,9 @@ export function BenefitsSection() {
               <h3 className="text-xl font-bold mb-4">Para el tripulante</h3>
               <ul className="text-muted-foreground space-y-2 text-left">
                 <li>• Transparencia en pagos</li>
-                <li>• Facilidad para solicitar acreditaciones</li>
+                <li>• Facilidad para solicitar aclaraciones</li>
                 <li>• Seguridad en la gestión</li>
-                <li>• Acceso móvil 24/7</li>
+                <li>• Acceso web 24/7</li>
                 <li>• Historial completo</li>
               </ul>
             </CardContent>
