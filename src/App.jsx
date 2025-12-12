@@ -1,13 +1,11 @@
 import { Navigation } from "./components/navigation"
 import { HeroSection } from "./components/heroSection"
-import { ProblemSolution } from "./components/problemSolution"
-import { FeaturesSection } from "./components/overview"
 import { MainModules } from "./components/mainModules"
 import { CTASection } from "./components/CTASection"
 import { Footer } from "./components/footer"
 import { Features } from "./components/features"
 import { Overview } from "./components/overview"
-import { Summary } from "./components/summary"
+import { ExecutiveSummary } from "./components/summary"
 
 export default function App() {
   return (
@@ -19,9 +17,8 @@ export default function App() {
       </div>
       <MainModules/>
       <Features/>
-      <Summary/>
+      <ExecutiveSummary/>
       <CTASection />
-      
       <Footer />
     </main>
   )

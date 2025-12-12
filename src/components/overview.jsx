@@ -1,35 +1,36 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
-import { Calculator, FileCheck, Zap, BarChart3, Shield, Clock } from "lucide-react"
+import { MonitorSmartphone, CloudOff, Languages, MoonStar, Palette, RefreshCcw } from "lucide-react";
+
 
 export function Overview() {
   const features = [
     {
-      icon: Calculator,
+      icon: MonitorSmartphone,
       title: "Multi-platform & responsive",
       description: "Adapts to computers, tablets, and mobile devices",
     },
     {
-      icon: FileCheck,
+      icon: CloudOff,
       title: "Offline/online functionality",
       description: "operates with or without an internet connection.",
     },
     {
-      icon: Zap,
+      icon: Languages,
       title: "Multilingual support",
       description: "Available in multiple languages for global teams.",
     },
     {
-      icon: Clock,
+      icon: MoonStar,
       title: "Light & dark modes",
       description: "Switch btween light and dark themes.",
     },
     {
-      icon: BarChart3,
+      icon: Palette,
       title: "Color-coded statuses",
       description: "Quickly identify operation states at a glance",
     },
     {
-      icon: Shield,
+      icon: RefreshCcw,
       title: "Full traceability",
       description: "Ensures complete and reliable data tracking",
     },

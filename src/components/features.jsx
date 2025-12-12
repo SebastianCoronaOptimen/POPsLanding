@@ -1,37 +1,53 @@
 import { Card, CardContent } from "./ui/card";
-import { Building2, Users, TrendingUp } from "lucide-react";
+import { Zap } from "lucide-react";
 
 export function Features() {
   return (
-    <section id="beneficios" className="px-6 py-20">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-8">
-          <Card className="text-left">
-            <CardContent className="p-8 mb-4">
-              <div className="flex justify-start mb-6 mt-5"> </div>
-              <h3 className="text-xl font-bold mb-4">Process Center</h3>
-              <ul className="text-muted-foreground space-y-4">
-                <li>• Background report processing</li>
-                <li>• Offline/online synchronization</li>
-                <li>• Automated audits</li>
-              </ul>
-            </CardContent>
-          </Card>
+    <section className="px-6 py-2">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
+        <Card className="bg-[#003566]/90 text-white rounded-xl p-6">
+          <CardContent className="p-6">
+            <h3 className="text-2xl font-semibold mb-6">Process Center</h3>
 
-          <Card className="text-left">
-            <CardContent className="p-8">
-              <div className="flex justify-start mb-6 mt-5"></div>
-              <h3 className="text-xl font-bold mb-4">
-                Cross-Functional System Features
-              </h3>
-              <ul className="text-muted-foreground space-y-4">
-                <li>• User, role, and permission management</li>
-                <li>• Dynamic context-based help</li>
-                <li>• Unified status system</li>
-              </ul>
-            </CardContent>
-          </Card>
-        </div>
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <Zap className="w-5 h-5 text-yellow-400 mt-1" />
+                <span>Background report processing</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Zap className="w-5 h-5 text-yellow-400 mt-1" />
+                <span>Offline/online synchronization</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Zap className="w-5 h-5 text-yellow-400 mt-1" />
+                <span>Automated audits</span>
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+
+        <Card className="bg-[#003566]/90 text-white rounded-xl p-6">
+          <CardContent className="p-6">
+            <h3 className="text-2xl font-semibold mb-6">
+              Cross-Functional System Features
+            </h3>
+
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <Zap className="w-5 h-5 text-yellow-400 mt-1" />
+                <span>User, role, and permission management</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Zap className="w-5 h-5 text-yellow-400 mt-1" />
+                <span>Dynamic context-based help</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Zap className="w-5 h-5 text-yellow-400 mt-1" />
+                <span>Unified status system</span>
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );

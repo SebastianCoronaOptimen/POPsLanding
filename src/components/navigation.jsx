@@ -9,18 +9,18 @@ export function Navigation() {
           alt="AIOPS icon"
           className="w-5 h-5 object-contain"
         />
-        <span className="font-semibold text-[#0A1F44]">AIOPS</span>
+        <span className="font-semibold text-black">AIOPS</span>
       </div>
       <div className="flex items-center gap-8 text-2xl">
         <div className="hidden md:flex items-center gap-8">
           <a
-            href="#producto"
+            href="#Overview"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             Overview
           </a>
           <a
-            href="#funcionalidades"
+            href="#mainModules"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             Modules
@@ -39,7 +39,7 @@ export function Navigation() {
           </a>
         </div>
 
-        <Button className="!bg-custom-cta !text-white hover:!bg-custom-cta/90 text-md">
+        <Button className="bg-[#003566]/90 !text-white hover:!bg-custom-cta/90 text-md">
           Schedule a demo
         </Button>
       </div>
