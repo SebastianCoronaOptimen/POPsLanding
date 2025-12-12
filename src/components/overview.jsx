@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 import { Calculator, FileCheck, Zap, BarChart3, Shield, Clock } from "lucide-react"
 
-export function FeaturesSection() {
+export function Overview() {
   const features = [
     {
       icon: Calculator,
@@ -54,8 +54,8 @@ export function FeaturesSection() {
           {features.map((feature, index) => (
             <Card key={index} className="border-border hover:border-primary/50 transition-colors">
               <CardHeader>
-                <div className="flex items-center gap-3">
-                  <div className="p-2 bg-custom-cta/10 rounded-lg">
+                <div className="flex flex-col gap-3">
+                  <div className="p-2  rounded-lg">
                     <feature.icon className="h-6 w-6 text-custom-cta" />
                   </div>
                     <CardTitle className="text-lg">{feature.title}</CardTitle>
