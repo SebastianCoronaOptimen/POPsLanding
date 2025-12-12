@@ -3,18 +3,21 @@ import { AlertTriangle, CheckCircle, Globe, DollarSign, Users, Clock } from "luc
 
 export function ProblemSolution() {
   return (
-    <section className="px-6 py-20 bg-muted/30">
+    <section className="px-6 py-20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-balance">
-            Del caos actual a la <span className="text-custom-cta">simplicidad con POPS</span>
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-            La gestión de viáticos en aerolíneas es compleja. POPS lo simplifica todo.
+          <p className="text-xl text-muted-foreground max-w-5xl mx-auto text-balance">
+            AIOPS (Airport Operational Sentinel) is a comprehensive platform designed to centralize and optimize
+            daily airport operations. It is a multi-platform, responsive, and multilingual system that automatically
+            adapts to computers, tablets, and mobile devices, ensuring a seamless experience both in the field and
+            in the office. The application can operate with or without an Internet connection, ensuring continuity in
+            data capture and synchronization in environments where connectivity may be limited. It also offers light
+            and dark modes, and a unified color-coded status system that enables quick identification of operation
+            states, ensuring traceability and reliability.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-3 gap-8 items-center">
           {/* Problem Side */}
           <Card className="border-destructive/20 bg-destructive/5">
             <CardContent className="p-8">

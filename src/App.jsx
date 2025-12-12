@@ -12,8 +12,6 @@ export default function App() {
     <main className="min-h-screen bg-[color:var(--color-background)] text-[color:var(--color-foreground)]">
       <Navigation />
       <HeroSection />
-      <SocialProof />
-      <ProblemSolution />
       <div id="FeaturesSection">
       <FeaturesSection />
       </div>

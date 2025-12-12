@@ -5,33 +5,33 @@ export function FeaturesSection() {
   const features = [
     {
       icon: Calculator,
-      title: "Control de viáticos",
-      description: "Cálculo automático de montos según país, moneda y seniority del tripulante.",
+      title: "Multi-platform & responsive",
+      description: "Adapts to computers, tablets, and mobile devices",
     },
     {
       icon: FileCheck,
-      title: "Gestión de acreditaciones",
-      description: "Solicitudes y aprobaciones para viáticos adicionales, tiempo extra o vuelos no programados.",
+      title: "Offline/online functionality",
+      description: "operates with or without an internet connection.",
     },
     {
       icon: Zap,
-      title: "Integración con sistemas",
-      description: "Conexión con sistemas de tracking para retroalimentación en tiempo real de vuelos asignados.",
+      title: "Multilingual support",
+      description: "Available in multiple languages for global teams.",
     },
     {
       icon: Clock,
-      title: "Historial y transparencia",
-      description: "Registro claro de todas las solicitudes, aprobaciones y pagos pendientes.",
+      title: "Light & dark modes",
+      description: "Switch btween light and dark themes.",
     },
     {
       icon: BarChart3,
-      title: "Reportes inteligentes",
-      description: "Análisis de gastos por ruta, país, moneda y tripulación para mejor control financiero.",
+      title: "Color-coded statuses",
+      description: "Quickly identify operation states at a glance",
     },
     {
       icon: Shield,
-      title: "Seguridad y confiabilidad",
-      description: "Plataforma segura y confiable, diseñada específicamente para la industria aérea.",
+      title: "Full traceability",
+      description: "Ensures complete and reliable data tracking",
     },
   ]
 
@@ -39,11 +39,14 @@ export function FeaturesSection() {
     <section id="funcionalidades" className="px-6 py-10">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-balance">
-            Funcionalidades que <span className="text-custom-cta">transforman</span> tu operación
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-            Herramientas diseñadas específicamente para las necesidades de la industria aérea
+          <p className="text-xl text-muted-foreground max-w-5xl mx-auto text-balance">
+            AIOPS (Airport Operational Sentinel) is a comprehensive platform designed to centralize and optimize
+            daily airport operations. It is a multi-platform, responsive, and multilingual system that automatically
+            adapts to computers, tablets, and mobile devices, ensuring a seamless experience both in the field and
+            in the office. The application can operate with or without an Internet connection, ensuring continuity in
+            data capture and synchronization in environments where connectivity may be limited. It also offers light
+            and dark modes, and a unified color-coded status system that enables quick identification of operation
+            states, ensuring traceability and reliability.
           </p>
         </div>
 
@@ -55,7 +58,7 @@ export function FeaturesSection() {
                   <div className="p-2 bg-custom-cta/10 rounded-lg">
                     <feature.icon className="h-6 w-6 text-custom-cta" />
                   </div>
-                  <CardTitle className="text-lg">{feature.title}</CardTitle>
+                    <CardTitle className="text-lg">{feature.title}</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>

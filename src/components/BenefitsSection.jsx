@@ -3,18 +3,18 @@ import { Building2, Users, TrendingUp } from "lucide-react"
 
 export function BenefitsSection() {
   return (
-    <section id="beneficios" className="px-6 py-20 bg-muted/30">
+    <section id="beneficios" className="px-6 py-20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-balance">
-            Beneficios para <span className="text-custom-cta">todos</span>
+            Main Modules
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-            POPS mejora la experiencia tanto para aerolíneas como para tripulantes
+            Core functionalities to streamline every aspect of your operations
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           <Card className="text-center">
             <CardContent className="p-8 mb-4">
               <div className="flex justify-center mb-6 mt-14">
@@ -47,6 +47,24 @@ export function BenefitsSection() {
                 <li>• Seguridad en la gestión</li>
                 <li>• Acceso móvil 24/7</li>
                 <li>• Historial completo</li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card className="text-center">
+            <CardContent className="p-8">
+              <div className="flex justify-center mb-6 mt-14">
+                <div className="p-4 bg-chart-4/10 rounded-full">
+                  <TrendingUp className="h-9 w-9 text-custom-green/70" />
+                </div>
+              </div>
+              <h3 className="text-xl font-bold mb-4">Para ambos</h3>
+              <ul className="text-muted-foreground space-y-2 text-left">
+                <li>• Ahorro de tiempo significativo</li>
+                <li>• Procesos más claros</li>
+                <li>• Plataforma moderna</li>
+                <li>• Soporte especializado</li>
+                <li>• Escalabilidad garantizada</li>
               </ul>
             </CardContent>
           </Card>
